@@ -1,0 +1,30 @@
+body {
+    overflow: hidden;
+}
+.text-center1 {
+    text-align: center !important;
+    color: rgb(80, 80, 80);
+}
+
+h6 {
+    overflow: hidden;
+    text-align: center;
+}
+h6:before,
+h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+}
+h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}

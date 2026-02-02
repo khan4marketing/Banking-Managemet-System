@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+:root{
+  --primary: #007bff;
+  --success: #28a745;
+  --warning: #ffc107;
+  --danger: #dc3545;
+}
+
+body {
+  background: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.table{
+  border-spacing: 0 15px;
+  border-collapse: separate;
+}
+
+.table thead tr th,
+.table thead tr td{
+  vertical-align: middle;
+  border: none;
+}
+
+.table thead tr th:last-child,
+.table thead tr td:last-child{
+  text-align: center;
+}
+
+.table tbody tr{
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.table tbody tr td{
+  background: #fff;
+}
+
+.table tbody tr td:first-child{
+  border-radius: 5px 0 0 5px;
+}
+
+.table tbody tr td:last-child{
+  border-radius: 0 5px 5px 0;
+}
+
+.user-info{
+  display:flex;
+  align-items: center;
+}
+
+.user-info__img img{
+  margin-right:15px;
+  height:55px;
+  width:55px;
+  border-radius: 45px;
+  border:3px solid #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* profile styles */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav{
+  min-width:250px;
+}
+
+.tab-content{
+  flex:1;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link{
+  padding:15px 20px;
+  border-bottom:1px solid #ddd;
+  border-radius:0;
+  color:#333;
+}
+
+.nav-pills a.nav-link i{
+  width:20px;
+}
+
+.img-circle img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+  background-color: #f5f7fb;
+  background-image: url("images/IUBAT_bank.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* Per-page overrides: allow pages to opt-out of the global background
+   and center the main .container when needed. */
+body.no-bg {
+  background: none !important;
+  background-image: none !important;
+  background-color: #f9f9f9 !important;
+}
+
+/* Use on pages that need the form centered in the viewport. */
+body.centered-page .container{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.container .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+    background: #205bd1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #2838b1;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #205bd1;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+
+
